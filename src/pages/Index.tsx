@@ -11,6 +11,17 @@ const Index = () => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/30" />
         </div>
+        {/* Logo */}
+        <div className="relative z-10 pt-8 px-4">
+          <div className="container max-w-6xl mx-auto">
+            <div className="text-white text-center">
+              <h2 className="font-serif text-2xl tracking-wide">LAURA DOUGLAS</h2>
+              <p className="text-sm tracking-[0.3em] text-neutral-100 mt-1">
+                INDEPENDENT TRAVEL AGENT
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
           <div className="animate-fade-up space-y-6 max-w-3xl">
             <h1 className="font-serif text-5xl md:text-7xl font-semibold">
