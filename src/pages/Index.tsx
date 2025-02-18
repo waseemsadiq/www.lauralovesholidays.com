@@ -14,9 +14,16 @@ const Index = () => {
         {/* Logo */}
         <div className="relative z-10 pt-8 px-4">
           <div className="container max-w-6xl mx-auto">
-            <div className="text-white text-center">
+            <div className="text-white text-center space-y-4">
+              <div className="w-32 h-32 mx-auto mb-6">
+                <img 
+                  src="/lovable-uploads/8a8f2cf1-ff43-4a80-a60e-5c1fc3c138fa.png"
+                  alt="Laura Douglas"
+                  className="w-full h-full object-cover rounded-full border-4 border-white/30 shadow-lg"
+                />
+              </div>
               <h2 className="font-serif text-2xl tracking-wide">LAURA DOUGLAS</h2>
-              <p className="text-sm tracking-[0.3em] text-neutral-100 mt-1">
+              <p className="text-sm tracking-[0.3em] text-neutral-100">
                 INDEPENDENT TRAVEL AGENT
               </p>
             </div>
