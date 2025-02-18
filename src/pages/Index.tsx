@@ -14,10 +14,10 @@ const Index = () => {
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
           <div className="animate-fade-up space-y-6 max-w-3xl">
             <h1 className="font-serif text-5xl md:text-7xl font-semibold">
-              Your Perfect Summer Getaway Awaits
+              Your Perfect Summer Holiday Awaits
             </h1>
             <p className="text-xl md:text-2xl text-neutral-100">
-              Let us craft your dream vacation experience
+              Let us craft your dream holiday experience
             </p>
             <Button
               size="lg"
@@ -34,7 +34,7 @@ const Index = () => {
         <div className="container max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-up">
             <h2 className="font-serif text-4xl md:text-5xl text-neutral-800 mb-4">
-              Personalized Travel Services
+              Personalised Travel Services
             </h2>
             <p className="text-neutral-600 text-lg max-w-2xl mx-auto">
               From luxurious getaways to adventure-packed journeys, we create unforgettable experiences tailored to you.
@@ -46,7 +46,7 @@ const Index = () => {
               {
                 icon: Palmtree,
                 title: "Luxury Resorts",
-                description: "Hand-picked premium accommodations for your comfort",
+                description: "Hand-picked premium accommodation for your comfort",
               },
               {
                 icon: Plane,
@@ -56,7 +56,7 @@ const Index = () => {
               {
                 icon: Map,
                 title: "Custom Itineraries",
-                description: "Personalized travel plans crafted just for you",
+                description: "Personalised travel plans crafted just for you",
               },
             ].map((service, index) => (
               <div
@@ -81,7 +81,7 @@ const Index = () => {
               Start Your Journey
             </h2>
             <p className="text-neutral-600 text-lg max-w-2xl mx-auto">
-              Fill out the form below and let's begin planning your perfect getaway
+              Fill out the form below and let's begin planning your perfect holiday
             </p>
           </div>
           <EnquiryForm />

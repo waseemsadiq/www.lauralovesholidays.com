@@ -83,7 +83,7 @@ export const EnquiryForm = () => {
         </label>
         <Textarea
           id="message"
-          placeholder="Tell us about your dream vacation"
+          placeholder="Tell us about your dream holiday"
           className="w-full bg-white/50 min-h-[120px]"
           required
         />
