@@ -109,9 +109,10 @@ const Index = () => {
       {/* Contact Section */}
       <section className="py-16 px-4 bg-white">
         <div className="container max-w-6xl mx-auto text-center">
-          <h2 className="font-serif text-3xl text-neutral-800 mb-8">
+          <h2 className="font-serif text-3xl text-neutral-800 mb-2">
             Ready to start planning?
           </h2>
+          <p className="text-neutral-600 mb-8">Contact Laura</p>
           <div className="flex items-center justify-center space-x-4">
             <Phone className="w-5 h-5 text-neutral-800" />
             <a href="tel:07368202536" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
