@@ -1,7 +1,7 @@
 
 import { EnquiryForm } from "@/components/EnquiryForm";
 import { Button } from "@/components/ui/button";
-import { PalmTree, Plane, Map, Phone } from "lucide-react";
+import { Palmtree, Plane, Map, Phone } from "lucide-react";
 
 const Index = () => {
   return (
@@ -44,7 +44,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: PalmTree,
+                icon: Palmtree,
                 title: "Luxury Resorts",
                 description: "Hand-picked premium accommodations for your comfort",
               },
