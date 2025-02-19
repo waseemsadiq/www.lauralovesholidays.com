@@ -8,7 +8,7 @@ const Index = () => {
     <div className="min-h-screen bg-neutral-100">
       {/* Hero Section */}
       <section className="relative h-screen">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb')] bg-cover bg-center">
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1475503572774-15a45e5d60b9')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/30" />
         </div>
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
