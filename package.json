@@ -6,7 +6,7 @@
   "homepage": "https://waseemsadiq.github.io/www.lauralovesholidays.com",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist --cname lauralovesholidays.com",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
