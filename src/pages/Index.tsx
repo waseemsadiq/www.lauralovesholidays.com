@@ -104,14 +104,18 @@ const Index = () => {
           </h2>
           <p className="text-neutral-600 mb-8">Contact Laura</p>
           <div className="flex flex-col md:flex-row items-center justify-center space-x-4">
-            <Mail className="w-5 h-5 text-neutral-800" />
-            <a href="mailto:info@lauralovesholidays.com" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
-              info@lauralovesholidays.com
-            </a>
-            <Phone className="w-5 h-5 text-neutral-800" />
-            <a href="tel:07368202536" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
-              07368 202 536
-            </a>
+            <div className="flex flex-row">
+              <Mail className="w-5 h-5 text-neutral-800" />
+              <a href="mailto:info@lauralovesholidays.com" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
+                info@lauralovesholidays.com
+              </a>
+            </div>
+            <div className="flex flex-row">
+              <Phone className="w-5 h-5 text-neutral-800" />
+              <a href="tel:07368202536" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
+                07368 202 536
+              </a>
+            </div>
           </div>
         </div>
       </section>
