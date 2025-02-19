@@ -17,7 +17,7 @@ const Index = () => {
             <div className="text-white text-center space-y-4">
               <div className="w-32 h-32 mx-auto mb-6">
                 <img 
-                  src="/lovable-uploads/8a8f2cf1-ff43-4a80-a60e-5c1fc3c138fa.png"
+                  src="/www.lauralovesholidays.com/images/8a8f2cf1-ff43-4a80-a60e-5c1fc3c138fa.png"
                   alt="Laura Douglas"
                   className="w-full h-full object-cover rounded-full border-4 border-white/30 shadow-lg"
                 />
