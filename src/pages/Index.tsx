@@ -11,9 +11,9 @@ const Index = () => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb')] bg-cover bg-center">
           <div className="absolute inset-0 bg-black/30" />
         </div>
-        {/* Logo */}
-        <div className="relative z-10 pt-8 px-4">
-          <div className="container max-w-6xl mx-auto">
+        <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+          <div className="animate-fade-up space-y-6 max-w-3xl">
+            {/* Logo */}
             <div className="text-white text-center space-y-4">
               <div className="w-32 h-32 mx-auto mb-6">
                 <img 
@@ -27,22 +27,18 @@ const Index = () => {
                 INDEPENDENT TRAVEL AGENT
               </p>
             </div>
-          </div>
-        </div>
-        <div className="relative h-full flex items-center justify-center text-center text-white px-4">
-          <div className="animate-fade-up space-y-3 max-w-3xl">
             <h1 className="font-serif text-5xl md:text-7xl font-semibold">
               Your Perfect Summer Holiday Awaits
             </h1>
             <p className="text-xl md:text-2xl text-neutral-100">
               Let us craft your dream holiday experience
             </p>
-            <Button
-              size="lg"
-              className="bg-white text-neutral-900 hover:bg-neutral-100"
+            <a
+              href="#start-planning"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 bg-white text-neutral-900 hover:bg-neutral-100"
             >
               Start Planning
-            </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -92,7 +88,7 @@ const Index = () => {
       </section>
 
       {/* Enquiry Section */}
-      <section className="py-24 px-4 bg-neutral-100">
+      <section id="start-your-journey" className="py-24 px-4 bg-neutral-100 hidden">
         <div className="container max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl md:text-5xl text-neutral-800 mb-4">
@@ -107,7 +103,7 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 px-4 bg-white">
+      <section id="start-planning" className="py-16 px-4 bg-white">
         <div className="container max-w-6xl mx-auto text-center">
           <h2 className="font-serif text-3xl text-neutral-800 mb-2">
             Ready to start planning?
