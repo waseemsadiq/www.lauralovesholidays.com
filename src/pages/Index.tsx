@@ -33,6 +33,12 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-neutral-100">
               Let us craft your dream holiday experience
             </p>
+            <a
+              href="/#start-planning"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 bg-white text-neutral-900 hover:bg-neutral-100"
+            >
+              Start Planning
+            </a>
           </div>
         </div>
       </section>
