@@ -30,7 +30,7 @@ const Index = () => {
           </div>
         </div>
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
-          <div className="animate-fade-up space-y-6 max-w-3xl">
+          <div className="animate-fade-up space-y-3 max-w-3xl">
             <h1 className="font-serif text-5xl md:text-7xl font-semibold">
               Your Perfect Summer Holiday Awaits
             </h1>
