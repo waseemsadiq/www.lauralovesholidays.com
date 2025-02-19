@@ -103,7 +103,7 @@ const Index = () => {
             Ready to start planning?
           </h2>
           <p className="text-neutral-600 mb-8">Contact Laura</p>
-          <div className="flex items-center justify-center space-x-4">
+          <div className="flex flex-col md:flex-row items-center justify-center space-x-4">
             <Mail className="w-5 h-5 text-neutral-800" />
             <a href="mailto:info@lauralovesholidays.com" className="text-lg text-neutral-800 hover:text-neutral-600 transition-colors">
               info@lauralovesholidays.com
